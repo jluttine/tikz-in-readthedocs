@@ -31,13 +31,13 @@ Ubuntu, install texlive, texlive-pictures, poppler-utils, and netpbm
 or imagemagick. Copy tikz.py to your documentation source directory
 and add the path to conf.py:
 
-.. code-block::
+.. code-block:: python
    
    sys.path.insert(0, os.path.abspath('.'))
 
 Here we assumed that tikz.py lies in the same folder as conf.py. Also, use TikZ package for LaTeX when generating PDF:
 
-.. code-block::
+.. code-block:: python
 
    latex_elements = {
    'preamble': '\usepackage{tikz}',
@@ -50,7 +50,7 @@ However, if you try to build your documentation in readthedocs.org, it
 builds PDF successfully but fails to build HTML. It complains about a
 missing file:
 
-.. code-block::
+.. code-block:: none
 
    WARNING: pdftoppm command cannot be run
 
@@ -68,7 +68,7 @@ However, readthedocs.org doesn’t look for executable nor libraries
 from your repository. Therefore, you need to add their paths to the
 environment variables. In conf.py, add the following:
 
-.. code-block::
+.. code-block:: python
   
    if os.environ.get('READTHEDOCS', None) == 'True':
        os.environ["PATH"] += os.pathsep + os.path.abspath('_bin')
