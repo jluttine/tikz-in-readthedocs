@@ -6,7 +6,6 @@
 Welcome to TikZ in Read the Docs's documentation!
 =================================================
 
-Contents:
 
 .. toctree::
    :maxdepth: 2
