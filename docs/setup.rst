@@ -61,7 +61,7 @@ readthedocs.org server. Fortunately, the server is running Linux, so
 it is possible to get these binaries from another Linux computer and
 add them to the repository. Once you have obtained the binaries, put
 them into your documentation source. Let’s assume you put them in
-folder _bin) under the documentation source folder (i.e., the folder
+folder _bin under the documentation source folder (i.e., the folder
 where conf.py lies).
 
 However, readthedocs.org doesn’t look for executable nor libraries
