@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'TikZ in Read the Docs'
+project = u'TikZ in readthedocs.org'
 copyright = u'2012, Jaakko Luttinen'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -189,7 +189,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'TikZinReadtheDocs.tex', u'TikZ in Read the Docs Documentation',
+  ('index', 'TikZinReadtheDocs.tex', u'TikZ in readthedocs.org Documentation',
    u'Jaakko Luttinen', 'manual'),
 ]
 
@@ -233,7 +233,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'TikZinReadtheDocs', u'TikZ in Read the Docs Documentation',
+  ('index', 'TikZinReadtheDocs', u'TikZ in readthedocs.org Documentation',
    u'Jaakko Luttinen', 'TikZinReadtheDocs', 'One line description of project.',
    'Miscellaneous'),
 ]
