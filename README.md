@@ -27,6 +27,10 @@ License
 * libnetpbm.so.10
    * License: GPLv2, MIT
 
+* index.rst
+   * Copyright (C) 2012 by Jaakko Luttinen
+   * License: CC-BY-SA and/or GPLv3
+
 * All other files
    * License: Public domain
 
