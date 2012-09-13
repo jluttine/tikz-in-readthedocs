@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to TikZ in Read the Docs's documentation!
-=================================================
+Welcome to TikZ in readthedocs.org's documentation!
+===================================================
 
 
 .. toctree::
