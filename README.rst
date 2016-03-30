@@ -7,13 +7,21 @@ enables documentations created with Sphinx to use TikZ drawings at
 readthedocs.org.
 
 To enable the TikZ support at readthedocs.org, add `rtd-tikz` to the
-requirements file used by readthedocs.org.
+requirements file used by readthedocs.org. It will install `sphinxcontrib-tikz`
+as a dependency.
 
 GitHub repository: https://github.com/jluttine/tikz-in-readthedocs
+
+Documentation: http://tikz-in-readthedocs.readthedocs.org
 
 **WARNING:** You probably want to install this package into a virtual
 environment, otherwise you may accidentally overwrite your system binaries if
 you have them.
+
+**NOTE:** If you install `rtd-tikz` (i.e., `sphinxcontrib-tikz`) into a virtual
+ environment, you should install `sphinx` into that virtual environment too. The
+ system installation won't find the extensions that exist in the virtual
+ environment.
 
 
 License
