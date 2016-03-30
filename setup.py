@@ -14,6 +14,7 @@ AUTHOR_EMAIL = 'jaakko.luttinen@iki.fi'
 URL          = 'http://tikz-in-readthedocs.readthedocs.org'
 LICENSE      = 'Various open source licenses'
 VERSION      = '0.1.1'
+COPYRIGHT    = '2012-2016, Jaakko Luttinen'
 
 
 if __name__ == "__main__":
