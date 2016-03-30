@@ -1,3 +1,0 @@
-[submodule "doc/sphinx-tikz"]
-	path = doc/sphinx-tikz
-	url = https://github.com/jluttine/sphinx-tikz.git
