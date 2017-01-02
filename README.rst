@@ -1,3 +1,5 @@
+**THIS PACKAGE IS NO LONGER NEEDED. THE ORIGINAL PACKAGE NOW SUPPORTS READTHEDOCS BY ITSELF. SEE https://bitbucket.org/philexander/tikz.**
+
 TikZ in readthedocs.org
 =======================
 
